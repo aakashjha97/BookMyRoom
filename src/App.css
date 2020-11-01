@@ -97,6 +97,17 @@ h6 {
   background: var(--offWhite);
   z-index: 1;
 }
+.nav-logo{
+  display: block;
+  text-decoration: blue;
+  padding: 0rem 0;
+  color: var(--mainBlack);
+  transition: var(--mainTransition);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: var(--mainSpacing);
+}
 .nav-header {
   display: flex;
   justify-content: space-between;
